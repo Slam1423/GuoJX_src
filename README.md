@@ -1,8 +1,6 @@
 # GuoJX_src
 
-This repository stores all the needed files to train the model. There 2 steps to start training after you download this repository.
-
-First, change to this directory. Then,
+This repository stores all the needed files to train the model. First, change to this directory. Then there are 2 steps to start training after you download this repository.
 
 step1:
 
