@@ -323,7 +323,7 @@ if __name__ == '__main__':
     if not os.path.exists(path_dir):
         os.makedirs(path_dir)
     
-    seed = 1008
+    seed = 1010
     # 设置随机数种子
     torch.manual_seed(seed) # 为CPU设置随机种子
 
