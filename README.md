@@ -18,7 +18,7 @@ step2:
 python train.py
 ```
 
-There's 30 training epoches and the result will be obtained in 0.5-1h with GPU(1080Ti).
+There's 30 training epoches and the training will end in 0.5-1h with GPU(1080Ti).
 
 ## Results
 
