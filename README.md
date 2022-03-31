@@ -20,10 +20,12 @@ python train.py
 
 There's 30 training epoches and the training will cost 0.5-1 hour with GPU(1080Ti).
 
-### PS: Possible error:
+### Possible error:
 
 ```bash
-seq_var = torch.autograd.Variable(seq_data.cuda(async=True).float())                                 ^
+  File "train.py", line 68
+    seq_var = torch.autograd.Variable(seq_data.cuda(async=True).float())
+                                                        ^
 SyntaxError: invalid syntax
 ```
 
