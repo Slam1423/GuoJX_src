@@ -27,19 +27,7 @@ seq_var = torch.autograd.Variable(seq_data.cuda(async=True).float())            
 SyntaxError: invalid syntax
 ```
 
-This error can be easily addressed by changing all (in train.py) the following code
-
-```bash
-seq_var = torch.autograd.Variable(seq_data.cuda(async=True).float())                                 ^
-```
-
-to 
-
-```bash
-seq_var = torch.autograd.Variable(seq_data.cuda().float())                                 ^
-```
-
-Then the training will be OK.
+This error can be easily addressed by deleting all "async=True" in train.py. Then the training will be OK.
 
 ## Results
 
