@@ -1,6 +1,8 @@
 # GuoJX_src
 
-This repository stores all the needed files to train the model. First, change to this directory. Then there are 2 steps to start training after you download this repository.
+This repository stores all the needed files(from datasets to source codes) to train the model. 
+
+First, change to this directory. Then there are 2 steps to start training after you download this repository as follows.
 
 step1:
 
@@ -14,4 +16,4 @@ step2:
 python train.py
 ```
 
-There's 30 training epoches and the result will be obtained in 0.5-1h.
+There's 30 training epoches and the result will be obtained in 0.5-1h with GPU(1080Ti).
