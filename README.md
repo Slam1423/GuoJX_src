@@ -24,4 +24,4 @@ There's 30 training epoches and the result will be obtained in 0.5-1h with GPU(1
 
 The SOTA's result is [ACC:0.657, Recall:0.611, Precision:0.311, F:0.414].
 
-It's convenient to compare our result with the SOTA.
+We get obvious improvement with [ACC:0.751, Recall:0.644, Precision:0.327, F:0.434] as the training result shows.
