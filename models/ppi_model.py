@@ -56,7 +56,8 @@ class PPIModel(BasicModule):
         nn.Linear(seq_dim,seq_dim))
         self.seq_layers.add_module("seq_embedding_ReLU",
         nn.ReLU())
-
+        
+        self.atten = global_attention()
 
         seq_dim = configs.seq_dim
         dssp_dim = configs.dssp_dim
