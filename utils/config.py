@@ -15,7 +15,7 @@ class DefaultConfig(object):
     max_sequence_length = 500
     windows_size = 6               
 
-    batch_size = 128
+    batch_size = 32
     seq_dim = 20
     dssp_dim = 9
     pssm_dim = 20
