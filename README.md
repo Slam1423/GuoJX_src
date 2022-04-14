@@ -35,4 +35,4 @@ This error can be easily addressed by deleting all "async=True" in train.py. The
 
 The SOTA's result is [ACC:0.657, Recall:0.611, Precision:0.311, F:0.414].
 
-We get obvious improvement with [ACC:0.751, Recall:0.644, Precision:0.327, F:0.434] as the training result shows.
+We get obvious improvement with [ACC:0.742, Recall:0.639, Precision:0.329, F:0.434] as the training result shows.
